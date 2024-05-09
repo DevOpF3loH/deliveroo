@@ -12,20 +12,20 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-        name: 'short_description',
-        title: 'Short description',
-        type: 'string',
-        validation: (Rule) => Rule.max(200),
-      }),
-      defineField({
-        name: 'price',
-        title: 'Price of the dish in USD',
-        type: 'number',
-      }),
-      defineField({
-        name: 'image',
-        title: 'Image',
-        type: 'image',
-      }),
+      name: 'short_description',
+      title: 'Short description',
+      type: 'string',
+      validation: (Rule) => Rule.max(200),
+    }),
+    defineField({
+      name: 'price',
+      title: 'Price of the dish in USD',
+      type: 'number',
+    }),
+    defineField({
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+    }),
   ],
 })
