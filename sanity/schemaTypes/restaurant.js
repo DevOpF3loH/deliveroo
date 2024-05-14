@@ -19,17 +19,17 @@ export default defineType({
     }),
     defineField({
       name: 'image',
-      title: 'Image of the Restuarnt',
+      title: 'Image of the Restaurant',
       type: 'image',
     }),
     defineField({
       name: 'lat',
-      title: 'Latitude of the Restuarnt',
+      title: 'Latitude of the Restaurant',
       type: 'number',
     }),
     defineField({
       name: 'lng',
-      title: 'Longitude of the Restuarnt',
+      title: 'Longitude of the Restaurant',
       type: 'number',
     }),
     defineField({
