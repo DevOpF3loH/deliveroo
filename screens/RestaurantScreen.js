@@ -74,12 +74,12 @@ export const RestaurantScreen = () => {
             source={{ uri: urlFor(imgUrl).url() }}
             className="w-full h-56 bg-gray-300 p-4"
           />
-          {/* <TouchableOpacity
+          <TouchableOpacity
           onPress={navigation.goBack}
           className="absolute top-14 left-6 p-2 bg-gray-100 rounded-full"
         >
           <ArrowLeftIcon size={20} color="#00CCBB" />
-        </TouchableOpacity> */}
+        </TouchableOpacity>
         </View>
 
         <View className="bg-white">
